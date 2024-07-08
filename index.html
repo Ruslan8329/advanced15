@@ -1,0 +1,41 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact List App</title>
+    <link rel="stylesheet" href="style.cssy" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact List</h1>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="phone" placeholder="Phone" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <button type="submit">Add Contact</button>
+      </form>
+      <div class="sort-options">
+        <button id="sort-name">Sort by Name</button>
+        <button id="sort-phone">Sort by Phone</button>
+        <button id="sort-email">Sort by Email</button>
+      </div>
+      <ul id="contact-list"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
